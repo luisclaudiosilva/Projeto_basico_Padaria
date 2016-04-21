@@ -1,0 +1,94 @@
+#logo{
+  position: absolute;
+  top: 2px;
+  left: 330px;
+  width: 18%;
+}
+
+#imagesq{
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  width: 25%;
+}
+
+
+#imagdir{
+  position: absolute;
+  top: 200px;
+  right: 10px;
+  width: 25%;
+}
+
+#imagfinal{
+  position: absolute;
+  top: 520px;
+  right: 520px;
+  width: 25%;
+}
+
+#imagmeio{
+  position: absolute;
+  top: 280px;
+  right: 400px;
+  width: 15%;
+}
+
+#usuario{
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  width: 17%;
+}
+
+#encom{
+  position: absolute;
+  top: 500px;
+  right: 10px;
+  width: 25%;
+}
+
+#coxinha{
+  position: absolute;
+  top: 170px;
+  left: 1px;
+  background-color: #EB7433;
+  width: 20%;
+}
+
+#pastel{
+  position: absolute;
+  top: 330px;
+  left: 390px;
+  background-color: #EB7433;
+  width: 35%;
+}
+
+#empada{
+  position: absolute;
+  top: 170px;
+  right: 1px;
+  background-color: #EB7433;
+  width: 20%;
+}
+
+#logocoffe{
+  position: absolute;
+  top: 200px;
+  left: 10px;
+  width: 25%;
+}
+
+#logocoffe2{
+  position: absolute;
+  top: 200px;
+  right: 10px;
+  width: 25%;
+}
+
+#logocoffe3{
+  position: absolute;
+  top: 490px;
+  right: 520px;
+  width: 25%;
+}

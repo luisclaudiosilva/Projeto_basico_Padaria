@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Cadastro/Encomenda</title>
+	<link type="text/css" rel="stylesheet" href="estilo.css"/>
+	<style type="text/css">
+		header,section{
+			border:2px solid black;
+			margin-right: 350px;
+			margin-left: 350px;
+			margin-top: 10px;
+			padding:0px;}
+		</style>
+
+		<style type="text/css">
+		body { background-image: url("images.jpg");}
+		</style>
+</head>
+
+<body bgcolor="#EB7433">
+	<img id="usuario" src="usuario.png">
+	<img id="encom" src="foto-encomendas.png">
+
+	<header style="background-color: #EB7433">
+		<strong><em><h2 style="text-align:center">Cadastro de Usuário</h2></em></strong>
+	</header>
+	<section style="background-color: #EB7433">
+		<form >
+			<ul>
+				Nome: <input type="name"required> <br>
+				Sexo: <input type="radio" name="sex" value="M"required>Masculino
+					  <input type="radio" name="sex" value="F"required>Feminino <br>
+				Email:<input type="email" required> <br>
+				Endereço: <input type="text"required> <br>
+				Data de Nascimento: <input type="date"required> <br>
+				Senha: <input type="password"required> <br>
+			</ul>
+		</form>
+	</section>
+	<header style="background-color: #EB7433">
+		<strong><em><h2 style="text-align:center">Encomenda</h2></em></strong>
+	</header>
+	<section style="background-color: #EB7433">
+		<form>
+			<ul>
+			<p>
+			<strong>Quantidade de andares:</strong> <br>
+			<input type="radio" name="opc" value="S" required> Simples <br>
+			<input type="radio" name="opc" value="2" required> 2 Andares <br>
+			<input type="radio" name="opc" value="3" required> 3 Andares <br>
+			</p>
+		    </ul>
+			<hr style="text-align:center"></hr>
+
+			<ul>
+			<strong>Tipo de recheio:</strong><br>
+			<input type="checkbox" required> Doce de leite <br>
+			<input type="checkbox" required> Chocolate <br>
+			<input type="checkbox" required> Creme de limão <br>
+			<input type="checkbox" required> Sem recheio <br>
+			</ul>
+		</form>
+		<h2 style="text-align:center">
+			<input type="submit" value="Enviar">
+		</h2>
+	</section>
+</body>
+
+</html>
